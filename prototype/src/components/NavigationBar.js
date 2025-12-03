@@ -29,11 +29,7 @@ function NavigationBar({
             style={styles.logoButton}
             onClick={() => setCurrentPage("home")}
           >
-            <img
-              src="images/uofc_onlylogo.png"
-              alt="logo"
-              style={styles.logo}
-            />
+            <img src="uofc_onlylogo.png" alt="logo" style={styles.logo} />
           </button>
           <div style={{ margin: "10px" }}>
             <h1 style={styles.titleText}>University of Calgary</h1>
